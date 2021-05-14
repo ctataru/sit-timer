@@ -1,0 +1,11 @@
+{
+  "name": "sit-timer",
+  "version": "1.0.0",
+  "description": "A Chrome extension that alerts you when it's time to stand up and stretch your legs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clément Tataru <ctataru@hotmail.com>",
+  "license": "ISC"
+}

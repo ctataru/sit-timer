@@ -2,16 +2,8 @@
   "manifest_version": 2,
   "name": "SitTimer",
   "version": "0.1",
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": ["index.js"]
-    }
-  ],
   "browser_action": {
-    "default_title": "testing 123",
+    "default_title": "SitTimer",
     "default_popup": "/popup/popup.html"
   },
   "icons": {
@@ -19,5 +11,11 @@
     "32": "/images/icon.png",
     "48": "/images/icon.png",
     "128": "/images/icon.png"
-  }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ]
 }

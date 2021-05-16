@@ -12,10 +12,12 @@
     "48": "/images/icon.png",
     "128": "/images/icon.png"
   },
-  "background": {
-    "service_worker": "background.js"
+  "background" : {
+    "scripts" : ["background.js"],
+    "persistent": false
   },
   "permissions": [
+    "notifications",
     "storage"
   ]
 }
